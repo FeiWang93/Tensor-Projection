@@ -1,0 +1,167 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Tensor/1.0.0": {
+        "dependencies": {
+          "Microsoft.Quantum.Development.Kit": "0.11.2004.2825",
+          "Microsoft.Quantum.Standard": "0.11.2004.2825"
+        },
+        "runtime": {
+          "Tensor.dll": {}
+        }
+      },
+      "Microsoft.Quantum.Development.Kit/0.11.2004.2825": {
+        "dependencies": {
+          "Microsoft.Quantum.Simulators": "0.11.2004.2825"
+        }
+      },
+      "Microsoft.Quantum.QSharp.Core/0.11.2004.2825": {
+        "dependencies": {
+          "Microsoft.Quantum.Runtime.Core": "0.11.2004.2825"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.QSharp.Core.dll": {
+            "assemblyVersion": "0.11.2004.2825",
+            "fileVersion": "0.11.2004.2825"
+          }
+        }
+      },
+      "Microsoft.Quantum.Runtime.Core/0.11.2004.2825": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.Runtime.Core.dll": {
+            "assemblyVersion": "0.11.2004.2825",
+            "fileVersion": "0.11.2004.2825"
+          }
+        }
+      },
+      "Microsoft.Quantum.Simulators/0.11.2004.2825": {
+        "dependencies": {
+          "Microsoft.Quantum.QSharp.Core": "0.11.2004.2825",
+          "Microsoft.Quantum.Runtime.Core": "0.11.2004.2825",
+          "System.Reflection.Metadata": "1.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.Common.dll": {
+            "assemblyVersion": "0.11.2004.2825",
+            "fileVersion": "0.11.2004.2825"
+          },
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll": {
+            "assemblyVersion": "0.11.2004.2825",
+            "fileVersion": "0.11.2004.2825"
+          },
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.Simulators.dll": {
+            "assemblyVersion": "0.11.2004.2825",
+            "fileVersion": "0.11.2004.2825"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/Microsoft.Quantum.Simulator.Runtime.dll": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/Microsoft.Quantum.Simulator.Runtime.dll": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/Microsoft.Quantum.Simulator.Runtime.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/vcomp140.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "14.11.25325.0"
+          }
+        }
+      },
+      "Microsoft.Quantum.Standard/0.11.2004.2825": {
+        "dependencies": {
+          "Microsoft.Quantum.Runtime.Core": "0.11.2004.2825",
+          "Microsoft.Quantum.Simulators": "0.11.2004.2825"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.Standard.dll": {
+            "assemblyVersion": "0.11.2004.2825",
+            "fileVersion": "0.11.2004.2825"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.Reflection.Metadata/1.7.0": {}
+    }
+  },
+  "libraries": {
+    "Tensor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Quantum.Development.Kit/0.11.2004.2825": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lVoZSTx3v5nDiM3t9qUBcnoKybz1czf8gOD2YzbbV2zCH68Gf+SpmfcAEfZNo5tK07Wab7Wc00NkBManoyjCfw==",
+      "path": "microsoft.quantum.development.kit/0.11.2004.2825",
+      "hashPath": "microsoft.quantum.development.kit.0.11.2004.2825.nupkg.sha512"
+    },
+    "Microsoft.Quantum.QSharp.Core/0.11.2004.2825": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LEC9yEZfMK2t+ht3mv0wKRPyfc3uGFIDCaPYoIdmzXMFOgBkJz+VCK7IeFJIonkvN1KcZmba6jDL0U+fCOsrJw==",
+      "path": "microsoft.quantum.qsharp.core/0.11.2004.2825",
+      "hashPath": "microsoft.quantum.qsharp.core.0.11.2004.2825.nupkg.sha512"
+    },
+    "Microsoft.Quantum.Runtime.Core/0.11.2004.2825": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-brE1TPi1MiY1Uj1CSeDFzKqP/ZLrQznOfu52KzDt6YVkun0uryT4E7BVlRUcbWDxGVANV/Ll3n8tWC8Odb1b6A==",
+      "path": "microsoft.quantum.runtime.core/0.11.2004.2825",
+      "hashPath": "microsoft.quantum.runtime.core.0.11.2004.2825.nupkg.sha512"
+    },
+    "Microsoft.Quantum.Simulators/0.11.2004.2825": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4nNaW0JQeAmjqSKw6r0XZV+8K0EMigmB7TJkmbwbd8ViEOPsZkuF9tLI40Q6zf1Ky3fYfmpXG+CiMAjlifZwuw==",
+      "path": "microsoft.quantum.simulators/0.11.2004.2825",
+      "hashPath": "microsoft.quantum.simulators.0.11.2004.2825.nupkg.sha512"
+    },
+    "Microsoft.Quantum.Standard/0.11.2004.2825": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dv9OiK+xuXOKAuy698r6TIwYTmpIutBNNmLvxcp+V1EaqO3oQL9KvIzADRxXThUVOq9lyLYNy6EY8zEttgwf3A==",
+      "path": "microsoft.quantum.standard/0.11.2004.2825",
+      "hashPath": "microsoft.quantum.standard.0.11.2004.2825.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PodRDaRRNI3BcF3zuEsrzn1jm/zws5UevTzIv5FqcOwWB3VPaU4jS6vt0tSxu+i38Wtn9vXFNgDHw09nDv8y5Q==",
+      "path": "system.reflection.metadata/1.7.0",
+      "hashPath": "system.reflection.metadata.1.7.0.nupkg.sha512"
+    }
+  }
+}
