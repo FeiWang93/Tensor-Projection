@@ -21,7 +21,7 @@
     /// C# ：var subscript = Quantum.D1.Run(qsim, new QArray<long>(2, 3, 4), new QArray<long>(1, 2, 3).Result;
     operation D1(sizes : Int[], subscripts : Int[]) : Int {
         mutable totalBackCutterLength = 0;
-        for (i in 0 .. Length(sizes) - 1) {
+        for i in 0 .. Length(sizes) - 1 {
             set totalBackCutterLength += Multiplier((sizes[i] - subscripts[i] - 1), Aggregator(Multiplier, 1, sizes[i + 1 ...]));
         }              
         return Aggregator(Multiplier, 1, sizes) - totalBackCutterLength - 1;
@@ -42,9 +42,9 @@
     operation Dn(sizes : Int[], indices : Int) : Int[] {
         let dimensions = Length(sizes);
         mutable resultArray = new Int[dimensions];
-        for (i in 0 .. dimensions - 1) {
+        for i in 0 .. dimensions - 1 {
             mutable cutterLength = 0;
-            for (j in i .. -1 .. 1) {
+            for j in i .. -1 .. 1 {
                 set cutterLength += Multiplier(resultArray[j - 1], Aggregator(Multiplier, 1, sizes[j ...]));
 		    }
             let iPosition = indices + 1 - cutterLength;
@@ -95,10 +95,9 @@
     /// Calculated output
     operation Aggregator<'T>(aggregator : (('T, 'T) => 'T), initialValue : 'T, inputArray : 'T[]) : 'T {
         mutable currentValue = initialValue;
-        for ((idx, element) in Enumerated(inputArray)){
+        for (idx, element) in Enumerated(inputArray){
             set currentValue = aggregator(currentValue, element);
         }
         return currentValue;
     }
-
 }
